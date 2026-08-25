@@ -44,7 +44,6 @@ console.log("Array (constructor):- ", alphabet);
 //Output:- ["Apple", "Banana", "Cherry"]
 console.log("Array constructor is less commonly used but provides more control over array creation.");
 
-//--------------------------------------------------------------------
 console.log("----------------------------------------------------------------------------");
 console.log("\nQues 3:- : Neeche expressions ke outputs predict karo aur difference explain karo. console.log(new Array(5));\nconsole.log([5]);\nconsole.log(Array.of(5));\n");
 /* Requirements:
@@ -66,7 +65,6 @@ console.log("\nArray Literal \nOutput:- ", ArrLiteral, "\nLength:- ", ArrLiteral
 const ArrOf = Array.of(5);
 console.log("\nArray of \nOutput:- ", ArrOf, "\nLength:- ", ArrOf.length);
 
-//--------------------------------------------------------------------
 console.log("----------------------------------------------------------------------------");
 console.log("\nQues 4:- : Given array se first, second aur last element access karo.\n const fruits = ['Apple', 'Banana', 'Mango', 'Orange'];\n");
 /* Requirements:
@@ -80,7 +78,6 @@ console.log("First element:- ", fruits[0]);
 console.log("Second element:- ", fruits[1]);
 console.log("Last element using length:- ", fruits[fruits.length - 1]);
 
-// --------------------------------------------------------------------
 console.log("----------------------------------------------------------------------------");
 console.log("\nQues 5:- Code ke baad length kya hogi? Actual present values kitni hongi? \nconst arr = []; \narr[3] = 'Javascript';");
 /* Requirements:-
@@ -96,7 +93,6 @@ const arr = [];
 arr[3] = 'Javascript';
 console.log("\n Output:-", arr, "length:-", arr.length);
 
-//--------------------------------------------------------------------
 console.log("----------------------------------------------------------------------------");
 console.log("\nQues 6:- Explain karo ki typeof [] kya return karta hai aur reliable Array check kaunsa hai. \nconsole.log(typeof []); \nonsole.log(Array.isArray([])); \nconsole.log(Array.isArray({}));")
 
@@ -109,7 +105,6 @@ console.log("\n- Typeof [] returns 'object' because in Javascript arrays are con
 
 console.log("\n Output:- ", "\ntypeof []:- ", typeof [], "\nArray.isArray([]):- ", Array.isArray([]), "\nArray.isArray({}):- ", Array.isArray({}));
 
-//--------------------------------------------------------------------
 console.log("----------------------------------------------------------------------------");
 console.log("\nQues 7:- Given array mein do elements end mein add karo. push() kya return karta hai? \nconst numbers = [10, 20, 30];\n");
 
@@ -126,7 +121,6 @@ const NumBers = [10, 20, 30];
 const updatedArr = NumBers.push(40, 50);
 console.log("\n Output:-", NumBers, "New Length:-", updatedArr);
 
-//--------------------------------------------------------------------
 console.log("----------------------------------------------------------------------------");
 console.log("\nQues 8:- Given array se last element remove karo aur removed element store karo. \nconst nums = [10, 20, 30, 40]");
 
@@ -151,7 +145,6 @@ const removedFromEmpty = emptyArr.pop();
 console.log("\nRemoved Item from empty array:-", removedFromEmpty);
 console.log("Updated Empty Array:-", emptyArr, "Length:- ", emptyArr.length);
 
-//--------------------------------------------------------------------
 console.log("----------------------------------------------------------------------------");
 console.log("\nQues 9:- shift() aur pop() ke beech difference explain karo.");
 
@@ -172,7 +165,6 @@ console.log("Pop removed item:-", PopItem);
 console.log("Shift removed item:-", ShiftItem);
 console.log("Updated Array:-", Array9);
 
-//--------------------------------------------------------------------
 console.log("----------------------------------------------------------------------------");
 console.log("\nQues 10:- Given array ke beginning mein 5 aur 10 add karo. Return value kya hogi? \nconst Numbers = [20, 30, 40]");
 
@@ -188,4 +180,3 @@ const Numbers = [20, 30, 40];
 const newLength = Numbers.unshift(5, 10);
 
 console.log("Updated Array:-", Numbers, "Return value (Lenght):_", newLength);
-
