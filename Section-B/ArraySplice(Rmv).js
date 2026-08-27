@@ -2,9 +2,9 @@
 const items = ['A','B','C','D','E'];
 
 Requirements:
-Correct splice call likho.
-Updated array batao.
-Removed array batao.
+28. Correct splice call likho.
+29. Updated array batao.
+30. Removed array batao.
 */
 
 // Explanation
