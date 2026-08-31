@@ -10,4 +10,6 @@ console.log("\n- When we write arr[3] = 'Javascript', the value is stored at ind
  
 const arr = [];
 arr[3] = 'Javascript';
-console.log("\n Output:-", arr, "length:-", arr.length);
+console.log("\n Output:-", arr);
+console.log("length:-", arr.length);
+console.log("Empty Item:- ", arr[0])

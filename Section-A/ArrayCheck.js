@@ -7,4 +7,10 @@ console.log("\nQues 6:- Explain karo ki typeof [] kya return karta hai aur relia
 
 console.log("\n- typeof [] returns 'object' because in JavaScript arrays are considered as objects. \n- typeof → returns a string describing the type of the operand.\n- Array.isArray([]) returns true because it is a reliable method to check if a value is an array. \n- Array.isArray(value) → returns true if the value is an array, else false.\n- Array.isArray({}) returns false because {} is an object, not an array.");
  
-console.log("\n Output:- ", "\ntypeof []:- ", typeof [], "\nArray.isArray([]):- ", Array.isArray([]), "\nArray.isArray({}):- ", Array.isArray({}));
+console.log("\n Output:- ", "\ntypeof []:- ", typeof []);
+console.log("Array.isArray([]):- ", Array.isArray([]));
+console.log("Array.isArray({}):- ", Array.isArray({}));
+
+const arr = [1, 2, 3];
+console.log(Array.isArray(arr));
+console.log(Array.isArray([2]));

@@ -1,4 +1,5 @@
 console.log("Ques 1:- JavaScript Array kya hota hai? Explain karo ki Array ka use kyun hota hai aur JavaScript mein Array ko primitive value kyun nahi kaha jata?\n");
+
 /* Requirements:
 1.	Array ki definition do.
 2.	0-based indexing explain karo.
