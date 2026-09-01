@@ -8,7 +8,7 @@ Returned index.
 */
 
 // Explanation
-console.log("FindIndex:- FindIndex means to search for an element in the array and return its index.\n- It returns the index of the first element in the array that satisfies the provided testing function.\n- If no values satisfy the testing function, -1 is returned. \n- Syntax:- array.findIndex(callback() => condition) \n- callback:- Function to execute on each value in the array. It takes three arguments: element, index, and array. \n- thisArg:- Optional. Value to use as this when executing callback.\n");
+console.log("FindIndex:- FindIndex means to search for an element in the array on basis of an condition and return its index. \n It returns the first element that satisfys the condition. \n- If no values satisfy the testing function, -1 is returned. \n- Syntax:- array.findIndex(callback() => condition) \n- callback:- Function to execute on each value in the array. It takes three arguments: element, index, and array. \n- thisArg:- Optional. Value to use as this when executing callback.\n");
 
 // Code 
 const products = [{id:10,name:'Mouse'},{id:20,name:'Keyboard'},{id:30,name:'Monitor'}];

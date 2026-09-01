@@ -8,7 +8,7 @@ Requirements:
 */
 
 // Explanation
-console.log("Find:- Find means to search for an element in the array.\n- It returns the value of the first element in the array that satisfies the provided testing function.\n- If no values satisfy the testing function, undefined is returned. \n- Syntax:- array.find(callback() => condition) \n- callback:- Function to execute on each value in the array. It takes three arguments: element, index, and array. \n- thisArg:- Optional. Value to use as this when executing callback.\n");
+console.log("Find:- means to search for an element in the array on basis of an condition and return that element.\n- If no values satisfy the testing function, undefined is returned. \n- Syntax:- array.find(callback() => condition) \n- callback:- Function to execute on each value in the array. It takes three arguments: element, index, and array. \n- thisArg:- Optional. Value to use as this when executing callback.\n");
 console.log("@param predicate\n find calls predicate once for each element of the array, in ascending order, until it finds one where predicate returns true. If such an element is found, find immediately returns that element value. Otherwise, find returns undefined.\n");
 
 // Code

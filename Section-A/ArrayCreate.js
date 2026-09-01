@@ -11,6 +11,7 @@ console.log("- There are two main ways to create an array in JavaScript: using a
 const numbers = [1, 2, 3, 4, 5];
 console.log("Array (literals):- ", numbers);
 //Output:- [1, 2, 3, 4, 5]
+
 console.log("- Array literal is the simplest and most common way. It directly creates an array with given elements. \n- Array Literal ([]) → returns a new array with the given elements.");
 console.log("Array literals → everyday coding (React, Node.js, APIs,configs).");
 
