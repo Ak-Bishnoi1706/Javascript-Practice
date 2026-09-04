@@ -17,3 +17,4 @@ const numbers = [1, 2, 3, 4, 5];
 
 // Map to double the numbers
 const doubledNumbers = numbers.map(num => num * 2);
+console.log("Doubled Numbers:", doubledNumbers);
