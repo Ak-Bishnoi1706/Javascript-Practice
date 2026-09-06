@@ -20,3 +20,14 @@ console.log(names);
 
 // Explanation
 console.log("\nFilter:- Filter means to create a new array with all elements that pass the test implemented by the provided function.\n-Map:- Map means to create a new array by applying a function to each element of the original array.\n-Chain:- In this case, we first filter the products to get only the active ones and then map their names to create a new array of names.\n-Order:- The order of operations is important here. We first filter the products to get only the active ones and then map their names to create a new array of names.\n");
+
+/*
+| Method      | Return Value   | Typical Use-Case                                |
+|-------------|----------------|------------------------------------------------|
+| map()       | New array      | Transform each element (e.g., square numbers). |
+| filter()    | New array      | Select elements that pass a condition.         |
+| reduce()    | Single value   | Aggregate values (sum, product, max).          |
+| sort()      | Sorted array   | Order elements (ascending/descending).         |
+| slice()     | New array      | Extract a portion of the array.                |
+| forEach()   | undefined      | Perform side effects (logging, API calls).     |
+*/
