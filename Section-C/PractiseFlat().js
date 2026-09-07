@@ -46,3 +46,28 @@ console.log("Original Articles Array after Operations:", articles);
 
     - 1st Level Flattened:- ["A", "B", "C", ["D", "E"], "F"];
     */
+
+// Deep Nested Arrays (Depth 3) Example:
+const arr = [1, 
+  [2, 3], 
+  [4, 
+    [5, 6, 
+      [7, 
+        [8, 9]]
+      ]
+    ]
+  ];
+
+  const flattenedArr = arr.flat(3);
+  console.log("Flattened Array (Depth 3):-", flattenedArr);
+
+  // Flat (Infinity) Example:
+  const deeplyNestedArr = [1, 
+    [2, 
+      [3, 
+        [4, [5]]
+        ]
+      ]
+    ];
+  const fullyFlattened = deeplyNestedArr.flat(Infinity);
+  console.log("Fully Flattened Array (Infinity):-", fullyFlattened);
